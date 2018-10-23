@@ -1,4 +1,4 @@
-package org.starichkov.java.spring.rabbit;
+package org.starichkov.spring.boot.rabbitmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootRabbitExampleApplication {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         SpringApplication.run(SpringBootRabbitExampleApplication.class, args);
     }
 }

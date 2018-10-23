@@ -1,4 +1,4 @@
-package org.starichkov.java.spring.rabbit;
+package org.starichkov.spring.boot.rabbitmq;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
