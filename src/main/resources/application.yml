@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    publisher-confirms: true
+    publisher-returns: true
+    template.mandatory: true
+
+queues:
+  example: rabbit.example
